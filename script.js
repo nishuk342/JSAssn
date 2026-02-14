@@ -22,10 +22,11 @@ function greetText(){
     const inputText = document.getElementById("name")
     var text = inputText.value;
 
-    document.getElementById("head").textContent = "Hello! " + text;
+    document.getElementById("head").textContent = "Hello " + text + "!";
 
     setTimeout(() => {
     window.location.reload();
   }, 5000);
 
 }
+
